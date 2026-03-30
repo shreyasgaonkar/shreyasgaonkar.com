@@ -1,30 +1,29 @@
-[
-    {
+[{
         "name": "April Larson",
         "title": "Founder",
         "company": "AML Health Coaching",
         "content": "Shreyas built my website from the ground up and was a pleasure to work with. From just a few meetings, he was able to build my website from start to finish and capture the look and feel that I wanted. Very efficient and a self starter, which I very much appreciated. He also can turnaround projects and changes very quickly. I highly recommend Shreyas as he is highly skilled, reliable and no doubt, a valuable and dedicated employee to add to your team.",
-        "img": "/images/testimonials/Al.jpg"
+        "img": "./images/testimonials/Al.jpg"
     },
     {
         "name": "Kevin Schafer",
         "title": "Chief Operating Officer",
         "company": " CollegeLife LLC",
         "content": "Shreyas has been a great addition to our startup team, bringing initiative and constantly refining his work for perfection. He is knowledgeable in many web development languages including HTML, CSS, SASS, JQuery, JavaScript (AngularJS), and Google & Rest API's. Shreyas has been an integral asset to our team and works both effectively and efficiently.",
-        "img": "/images/testimonials/Ks.jpg"
+        "img": "./images/testimonials/Ks.jpg"
     },
     {
         "name": "Anand Satyanarayanan",
         "title": "Co-Founder",
         "company": "Samefaretaxi Studios",
         "content": "I have been Shreyas's tutor for Website Management & Development. I found him to be consistently pleasant, tackling all assignments with dedication and a smile. Besides being a joy to work with, Shreyas likes to try out new things on his own. Also, he is a take charge person.",
-        "img": "/images/testimonials/As.jpg"
+        "img": "./images/testimonials/As.jpg"
     },
     {
         "name": "Mandaar Shinde",
         "title": "Director",
         "company": "Chitramandaar.com",
         "content": "I appreciate your zeal & sincerity I experienced in designing this website, an attitude which will take you much further in life. I always feel very happy to see young talented people like you show such commitment towards their job.",
-        "img": "/images/testimonials/Ms.jpg"
+        "img": "./images/testimonials/Ms.jpg"
     }
 ]

@@ -1,50 +1,49 @@
-[
-    {
+[{
         "company": "Amazon Web Services",
         "title": "Systems Development Engineer II",
         "dates": "September 2021 - Present",
-        "img": "/images/aws.png"
+        "img": "./images/aws.png"
     },
     {
         "company": "Amazon Web Services",
         "title": "Cloud Support Engineer II",
         "dates": "October 2020 - September 2021",
-        "img": "/images/aws.png"
+        "img": "./images/aws.png"
     },
     {
         "company": "Amazon Web Services",
         "title": "Cloud Support Engineer",
         "dates": "September 2018 - September 2020",
-        "img": "/images/aws.png"
+        "img": "./images/aws.png"
     },
     {
         "company": "Amazon Web Services",
         "title": "Cloud Support Associate",
         "dates": "June 2017 - August 2018",
-        "img": "/images/aws.png"
+        "img": "./images/aws.png"
     },
     {
         "company": "Marketing RELEVANCE",
         "title": "Full Stack Web Developer",
         "dates": "August 2016 - May 2017",
-        "img": "/images/marketing-relevance.jpeg"
+        "img": "./images/marketing-relevance.jpeg"
     },
     {
         "company": "AML Health Coaching",
         "title": "Web Developer Intern",
         "dates": "Jan 2016 - May 2016",
-        "img": "/images/AML.png"
+        "img": "./images/AML.png"
     },
     {
         "company": "University of Illinois at Chicago",
         "title": "Graduate Assistant",
         "dates": "Oct 2014 - May 2016",
-        "img": "/images/UIC.png"
+        "img": "./images/UIC.png"
     },
     {
         "company": "CollegeLife LLC",
         "title": "Web Developer Intern",
         "dates": "May 2015 - Aug 2015",
-        "img": "/images/mote.png"
+        "img": "./images/mote.png"
     }
 ]

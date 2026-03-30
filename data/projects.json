@@ -1,92 +1,91 @@
-[
-    {
+[{
         "name": "AWS feature launch",
         "skills": "IPv6 support for CloudWatch Logs",
-        "img": "/images/aws.png",
+        "img": "./images/aws.png",
         "href": "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-cloudwatch-logs-ipv6/"
     },
     {
         "name": "HSE COVID Tracker app",
         "skills": "Architecture: AWS Lambda, API Gateway & SNS",
-        "img": "/images/hse.webp",
+        "img": "./images/hse.webp",
         "href": "https://covidtracker.gov.ie/"
     },
     {
         "name": "AWS Public blog",
         "skills": "Amazon API Gateway",
-        "img": "/images/aws.png",
+        "img": "./images/aws.png",
         "href": "https://repost.aws/knowledge-center/api-gateway-401-error-lambda-authorizer"
     },
     {
         "name": "AWS Lambda Code Samples",
         "skills": "AWS Lambda, Boto3 Python SDK",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/aws-lambda-code-samples"
     },
     {
         "name": "AWS CLI Code Samples",
         "skills": "AWS CLI, Bash",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/aws-cli-code-samples"
     },
     {
         "name": "Instagram Bot",
         "skills": "Python, Selenium",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/Instagram-Bot"
     },
     {
         "name": "URL Shortner",
         "skills": "Python, AWS Lambda, API Gateway, DynamoDB",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/url-shortner"
     },
     {
         "name": "Plex filename parse",
         "skills": "Python",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/Plex-filename-parser"
     },
     {
         "name": "Automate social media posts",
         "skills": "Python",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/social-media-posts"
     },
     {
         "name": "Doggo Webhook",
         "skills": "Python",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/doggo_webhook"
     },
     {
         "name": "Remitly Web Scrapper",
         "skills": "Python - Beautifulsoup",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/website-scrapper-beautifulsoup"
     },
     {
         "name": "Plex filename parser",
         "skills": "Python",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/Plex-filename-parser"
     },
     {
         "name": "Weather Web API",
         "skills": "JavaScript",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/weather-API"
     },
     {
         "name": "URL Shortner",
         "skills": "AWS Lambda, API Gateway and DynamoDB",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://trim.live/"
     },
     {
         "name": "Giphy GIF API search",
         "skills": "Javascript",
-        "img": "/images/SG.png",
+        "img": "./images/SG.png",
         "href": "https://github.com/shreyasgaonkar/GIPHY-GIF"
     }
 ]
