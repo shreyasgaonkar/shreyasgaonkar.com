@@ -132,7 +132,7 @@ blockquote span {
 .header {
     position: relative;
     background: $color1;
-    background: url("./images/background-2000.png");
+    background: url("../images/background-2000.png");
     background-size: cover;
     background-position: 50% 100%;
     background-repeat: no-repeat;
@@ -474,7 +474,7 @@ blockquote span {
 
 @media (max-width: 991.98px) {
     .header {
-        background: url("/images/background-1000.png");
+        background: url("../images/background-1000.png");
         background-size: cover;
         background-position: 50% 100%;
         .navbar {
@@ -499,7 +499,7 @@ blockquote span {
 
 @media (max-width: 1199.98px) {
     .header {
-        background: url("/images/background-1200.png");
+        background: url("../images/background-1200.png");
         background-size: cover;
         background-position: 50% 100%;
     }
