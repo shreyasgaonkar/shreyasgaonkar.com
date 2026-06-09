@@ -1,9 +1,5 @@
-# Group 1
-User-agent: Googlebot
-Disallow: /node_modules/
-
-# Group 2
 User-agent: *
 Allow: /
+Disallow: /node_modules/
 
-Sitemap: http://www.shreyasgaonkar.com/sitemap.xml
+Sitemap: https://shreyasgaonkar.com/sitemap.xml

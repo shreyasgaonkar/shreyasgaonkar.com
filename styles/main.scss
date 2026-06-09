@@ -6,6 +6,7 @@ $color4: #354d79;
 $color5: #6898e0;
 $color6: #a6c0f1;
 $color7: #94a187;
+
 body,
 html {
     margin: 0;
@@ -36,11 +37,13 @@ footer {
     color: white;
     font-weight: 400;
     font-size: 0.8rem;
+
     hr {
         border: 1px solid rgba(255, 255, 255, 0.1);
         margin: 3em auto 1.5em;
         width: 12em;
     }
+
     p {
         color: rgba(255, 255, 255, 0.4);
         font-size: 0.9em;
@@ -49,25 +52,31 @@ footer {
         max-width: 35em;
         text-align: center;
     }
+
     .footer-logo {
         padding: 0 0 40px 0;
     }
+
     .row {
         display: flex;
         width: 100%;
     }
+
     .footer-title {
         font-size: 1rem;
         margin-bottom: 10px;
     }
+
     ul {
         list-style: none;
         line-height: 1.5rem;
+
         li {
             a {
                 color: rgba(255, 255, 255, 0.4);
                 text-decoration: none;
                 transition: all 0.2s ease-in-out;
+
                 &:hover {
                     color: rgba(255, 255, 255, 1);
                     transition: all 0.2s ease-in-out;
@@ -75,10 +84,12 @@ footer {
             }
         }
     }
+
     .col {
         text-align: left;
         display: inline-block;
     }
+
     .col13 {
         width: calc(100% / 3);
     }
@@ -120,13 +131,10 @@ blockquote span {
     font-size: 1rem;
     font-weight: bold;
     margin-top: 1em;
+
     span {
         margin-top: 0.6rem;
     }
-}
-
-.fa-twitter-square {
-    background: url("./images/instagram.svg");
 }
 
 .header {
@@ -140,41 +148,56 @@ blockquote span {
     text-align: center;
     padding: 40px 0;
     min-height: 60vh;
+
     img {
         max-width: 100%;
         max-height: 250px;
     }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
     hr {
         border: transparent;
     }
-    h4 {
+
+    .subtitle {
         line-height: 1.5;
+        font-size: 1.25rem;
+        font-weight: bold;
     }
+
     .text-center {
         color: white;
-        font-size: 1.25rem;
     }
+
     .globe {
         height: 20px;
         color: white;
         vertical-align: middle;
         filter: invert(90%) sepia(0%) saturate(7500%) hue-rotate(49deg) brightness(113%) contrast(107%);
     }
+
     .navbar {
         position: absolute;
         right: 0;
         top: 0;
+
         ul {
             list-style: none;
             text-align: left;
             padding: 0 0 0 20px;
+
             li {
                 float: left;
                 border-radius: 7px;
+
                 &:not(:last-child):after {
                     content: "/";
                     color: $color1;
                 }
+
                 a {
                     padding: 5px 10px;
                     font-size: 1.15rem;
@@ -182,6 +205,7 @@ blockquote span {
                     font-weight: 600;
                     transition: 0.3s;
                     text-decoration: none;
+
                     &:hover {
                         color: white;
                         text-underline-position: under;
@@ -190,15 +214,18 @@ blockquote span {
             }
         }
     }
+
     .outerText {
         padding: 20px;
         display: inline-block;
+
         .fName {
             border-top: 3px solid white;
             border-left: 3px solid white;
             border-bottom: 3px solid white;
             margin-right: -10px;
         }
+
         .lName {
             background: white;
             color: black;
@@ -206,6 +233,7 @@ blockquote span {
             border-right: 3px solid white;
             border-bottom: 3px solid white;
         }
+
         span {
             color: white;
             padding: 10px 20px;
@@ -215,15 +243,18 @@ blockquote span {
             font-weight: 700;
         }
     }
+
     .social {
         margin: 40px auto 0;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         max-width: 300px;
+
         img {
             height: 65px;
         }
+
         a>i {
             font-size: 3rem;
             flex: 1;
@@ -231,6 +262,7 @@ blockquote span {
             border: 1px solid transparent;
             padding: 0;
             transition: all 0.2s ease-in-out;
+
             &:hover {
                 transform: scale(1.1);
             }
@@ -246,32 +278,55 @@ blockquote span {
 .intro {
     font-size: 1.25rem;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 650px;
     text-align: center;
     padding: 0 0 40px 0;
     margin-top: -20px;
+
     code {
         background: rgba(white, 0.25);
         padding: 1px 3px;
         overflow-wrap: word-wrap;
     }
+
     p {
         font-size: 1.3rem;
+    }
+
+    .cta a {
+        display: inline-block;
+        padding: 10px 28px;
+        border: 2px solid $color1;
+        color: $color1;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: all 0.3s;
+        &:hover {
+            background: $color1;
+            color: white;
+        }
     }
 }
 
 .inner-content {
     background-image: linear-gradient($color2, white, white, white);
+
     .container {
         section {
             padding: 40px 0;
             display: grid;
             grid-gap: 2em;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
             a {
                 color: initial;
                 text-decoration: none;
                 transition: all ease-in-out 250ms;
+
                 &:hover {
                     transform: scale(1.05);
                     transition: all ease-in-out 250ms;
@@ -279,35 +334,38 @@ blockquote span {
             }
         }
     }
+
     .container {
         max-width: 1000px;
         margin: 0 auto;
+
         .line-behind-text {
             text-align: center;
         }
-        h6 {
+
+        h2 {
             margin: 40px auto;
             display: inline-block;
             padding: 0 10px;
             text-transform: uppercase;
             font-size: 24px;
-            font-weight: 600;
-            text-transform: uppercase;
-            padding: 0 10px;
             background: inherit;
             color: $color1;
             font-family: "Oswald", sans-serif;
             font-weight: 500;
             letter-spacing: 1px;
         }
+
         .hr-shadow {
             margin-bottom: 20px;
             border: 0;
             border-top: 1px solid rgba(#eee, 0.5);
         }
     }
+
     #testimonials {
         grid-template-columns: auto;
+
         .box {
             img {
                 height: 4em;
@@ -315,33 +373,41 @@ blockquote span {
                 float: left;
             }
         }
+
         span {
             line-height: 0.5rem;
         }
     }
+
     .box {
         padding: 2em;
         border-radius: 0.2em;
         box-shadow: 10px 10px 30px rgba(black, 0.1);
         background: rgba(white, 0.5);
+
         p {
             margin-top: 0;
         }
+
         p:last-child {
             margin-bottom: 0;
         }
+
         span {
             font-weight: bold;
             position: relative;
         }
+
         p.job-title {
             font-weight: 600;
             font-size: 1.1rem;
         }
+
         img {
             max-width: 100%;
             height: 3em;
         }
+
         .job-dates {
             font-size: 0.9rem;
             font-style: italic;
@@ -360,16 +426,20 @@ blockquote span {
 @media (max-width: 400px) {
     .header {
         padding: 40px 0 20px 0;
-        h4 {
+
+        .subtitle {
             font-size: 1.25rem;
         }
+
         .social {
             margin-top: 20px;
+
             i {
                 font-size: 2rem;
             }
         }
     }
+
     .inner-content {
         #experience {
             display: block;
@@ -381,7 +451,8 @@ blockquote span {
 @media (max-width: 400px) {
     .header {
         min-height: 75vh;
-        h2 {
+
+        h1 {
             margin: 0;
         }
     }
@@ -392,19 +463,23 @@ blockquote span {
     .hr-shadow {
         display: none !important;
     }
+
     .header {
         img {
             max-width: 75%;
             padding-bottom: 20px;
         }
     }
+
     .intro {
         padding: 0 0 20px 0;
         margin-top: -40px;
+
         .container {
             padding: 0 20px;
         }
     }
+
     .inner-content {
         .container {
             section {
@@ -412,11 +487,14 @@ blockquote span {
                 padding-bottom: 0;
             }
         }
+
         background-image: none;
+
         .box {
             padding: 1rem;
             box-shadow: none;
         }
+
         #experience,
         #projects {
             .box {
@@ -425,6 +503,7 @@ blockquote span {
                 border-radius: 1px;
             }
         }
+
         #testimonials {
             img {
                 float: right;
@@ -433,34 +512,41 @@ blockquote span {
                 padding: 0 1.4rem;
             }
         }
+
         blockquote {
             font-size: 1rem;
             margin: 0;
             padding: 2.5rem 1.5rem 1.5rem;
             background: rgba(155, 161, 167, 0.1);
         }
+
         #testimonials {
             span {
                 line-height: 1rem;
                 font-size: 0.75rem;
                 font-weight: 800;
+
                 span {
                     margin-top: 0;
                 }
             }
         }
     }
+
     footer {
         .row {
             display: grid;
         }
+
         .col13 {
             width: 100%;
         }
     }
+
     .hidden-on-mobile {
         display: none !important;
     }
+
     .visible-on-mobile {
         display: block !important;
     }
@@ -477,8 +563,10 @@ blockquote span {
         background: url("../images/background-1000.png");
         background-size: cover;
         background-position: 50% 100%;
+
         .navbar {
             padding-right: 0;
+
             ul {
                 li {
                     margin: 10px;
@@ -486,10 +574,12 @@ blockquote span {
             }
         }
     }
+
     .inner-content {
         #experience {
             padding: 0;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
             box {
                 padding: 1em;
             }
