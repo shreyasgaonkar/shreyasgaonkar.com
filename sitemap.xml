@@ -6,16 +6,8 @@
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://shreyasgaonkar.com/docs/Resume.pdf</loc>
+    <loc>https://shreyasgaonkar.com/resume</loc>
     <lastmod>2026-06-09</lastmod>
     <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://shreyasgaonkar.com/docs/Vending%20Machine%20VLSI.pdf</loc>
-    <priority>0.60</priority>
-  </url>
-  <url>
-    <loc>https://shreyasgaonkar.com/docs/Automated%20Toll%20Collection%20System.pdf</loc>
-    <priority>0.60</priority>
   </url>
 </urlset>
