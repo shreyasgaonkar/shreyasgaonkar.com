@@ -1,0 +1,20 @@
+{
+  "name": "shreyasgaonkar.com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "sass styles/main.scss styles/main.css --style compressed --no-source-map",
+    "build:js": "terser scripts/index.js -o scripts/index-dist.js -c -m",
+    "build": "npm run build:css && npm run build:js",
+    "watch": "chokidar 'styles/**/*.scss' 'scripts/index.js' -c 'npm run build'",
+    "serve": "browser-sync start --server --files 'styles/main.css' 'scripts/index-dist.js' '**/*.html' 'data/*.json'",
+    "dev": "concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.0",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^8.2.0",
+    "sass": "^1.77.0",
+    "terser": "^5.31.0"
+  }
+}
